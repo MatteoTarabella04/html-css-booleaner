@@ -4,3 +4,23 @@ azzurro chiaro: b1e5f2
 grigio: c2c2c2
 giallo: ffff7d
 */
+html{
+    text-align: justify;
+}
+.banner {
+    background-color: #4ea0ff;
+    height: 90px;
+
+    background-image: url(./img/pattern.png);
+    background-size: contain;
+
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.timDesc{
+    font-size: smaller;
+    
+}
