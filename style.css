@@ -4,9 +4,10 @@ azzurro chiaro: b1e5f2
 grigio: c2c2c2
 giallo: ffff7d
 */
-html{
+html {
     text-align: justify;
 }
+
 .banner {
     background-color: #4ea0ff;
     height: 90px;
@@ -20,7 +21,32 @@ h1 {
     font-size: 45px;
 }
 
-.timDesc{
+.timDesc {
     font-size: smaller;
-    
+    font-weight:lighter ;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    text-align: left;
+    padding: 15px;
+    font-weight: bold;
+}
+
+tr:nth-child(odd) {
+    background-color: #b1e5f2;
+}
+
+th {
+    background-color: #4ea0ff;
+    color: white;
+}
+
+p {
+    font-weight: bold;
 }
