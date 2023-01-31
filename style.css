@@ -5,27 +5,36 @@ grigio: c2c2c2
 giallo: ffff7d
 */
 
+* {
+    margin: 0;
+}
+
 html {
     text-align: justify;
 }
 
-main,
+/* main,
 footer {
     margin-left: 100px;
     margin-right: 100px;
-}
-
+} */
 .banner {
     background-color: #4ea0ff;
     height: 90px;
 
     background-image: url(./img/pattern.png);
-    background-size: contain;
+    background-size: 20%;
 
+}
+
+.logo {
+    margin-top: 3rem;
+    margin-left: 3rem;
 }
 
 h1 {
     font-size: 60px;
+    margin: 3rem;
 }
 
 .timDesc {
@@ -33,10 +42,14 @@ h1 {
     font-weight: lighter;
 
 }
+.tim{
+    margin: 3rem;
+}
 
 table {
     border-collapse: collapse;
     width: 100%;
+    margin-left: 3rem;
 }
 
 td {
@@ -56,6 +69,9 @@ th {
 
 p {
     font-weight: bold;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .grey {
@@ -67,6 +83,7 @@ p {
     background-repeat: no-repeat;
     height: 200px;
     color: white;
+    margin-left: 3rem;
 }
 
 .img1 {
@@ -74,4 +91,6 @@ p {
     background-repeat: no-repeat;
     height: 200px;
     color: white;
+    margin-left: 3rem;
+    margin-top: 1rem;
 }
