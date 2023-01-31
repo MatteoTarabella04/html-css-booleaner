@@ -13,11 +13,7 @@ html {
     text-align: justify;
 }
 
-/* main,
-footer {
-    margin-left: 100px;
-    margin-right: 100px;
-} */
+
 .banner {
     background-color: #4ea0ff;
     height: 90px;
@@ -48,7 +44,7 @@ h1 {
 
 table {
     border-collapse: collapse;
-    width: 100%;
+    width: auto;
     margin-left: 3rem;
 }
 
